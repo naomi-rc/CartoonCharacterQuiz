@@ -1,0 +1,96 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+
+body {
+    margin : 0;
+    padding: 0;
+    line-height: 1.45;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
+}
+
+header {
+    color : #FFFFFF;
+    background-color: #284b63;
+    padding : 30px 0;
+    text-align: center;
+}
+h1 {
+    font-size: 48px;
+    margin: 0 0 8px 0;;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 24px;
+    margin : 0 0 16px 0;
+}
+
+section {
+    padding : 40px 0;
+    text-align: center;
+}
+
+
+.quiz {
+    background: #FFFFFF;
+    color: #000000;
+    padding: 0 0 40px 0;
+}
+
+.quiz img {
+    max-width: 20%;
+    max-height: 15em;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+}
+
+.footer {
+    background: #549DA0;
+    color: #FFFFFF;
+    padding : 10px 0;
+    text-align: center;
+    margin: 0 0 0 0 ;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.next {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    background: #549DA0;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    background: #74d36b;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.input{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 12px 16px;
+}
+
+.btn:hover {
+    background: #60b458
+}
+
+.next:hover {
+    background: #43898b
+}

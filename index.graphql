@@ -1,0 +1,8 @@
+schema
+  @sdl(
+    files: [      
+      "last-airbender/lastairbender.graphql"
+    ]
+  ) {
+  query: Query
+}

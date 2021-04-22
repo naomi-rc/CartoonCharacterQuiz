@@ -1,0 +1,27 @@
+type Character {
+    _id: ID!
+    name : String!    
+    photo : String!
+    affiliation : String
+}
+
+type Query {
+    characterByName(name : String!) : Character
+    @rest(               
+        endpoint: "https://last-airbender-api.herokuapp.com/api/v1/characters?name=$name"
+        setters: [
+            { field: "photo", path: "photoUrl" }
+        ]
+    )
+}
+
+type Query {
+    randomCharacter : Character
+    @rest(         
+        endpoint: "https://last-airbender-api.herokuapp.com/api/v1/characters/random"
+        setters: [
+            { field: "photo", path: "photoUrl" }
+        ]
+    )
+}
+
